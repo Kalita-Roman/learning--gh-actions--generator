@@ -1,6 +1,6 @@
 name: "Podcast Generator"
 author: "Joe Doe"
-description: "Generate a podcast feed from a directory of audio files 1"
+description: "Generates a feed for a podcast from a YAML file"
 runs:
   using: "docker"
   image: "Dockerfile"
@@ -9,7 +9,7 @@ branding:
   color: "red"
 inputs:
   email:
-    description: The committer's email address
+    description: The commiter's email address
     required: true
     default: ${{ github.actor }}@localhost
   name:
