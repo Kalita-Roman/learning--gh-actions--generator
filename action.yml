@@ -3,7 +3,7 @@ author: "Joe Doe"
 description: "Generate a podcast feed from a directory of audio files 1"
 runs:
   using: "docker"
-  main: "Dockerfile"
+  image: "Dockerfile"
 branding:
   icon: "git-branch"
   color: "red"
