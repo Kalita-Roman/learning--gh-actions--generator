@@ -1,6 +1,6 @@
 name: "Podcast Generator"
 author: "Joe Doe"
-description: "Generate a podcast feed from a directory of audio files"
+description: "Generate a podcast feed from a directory of audio files 1"
 runs:
   using: "docker"
   main: "Dockerfile"
