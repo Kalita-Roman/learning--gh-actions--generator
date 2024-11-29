@@ -1,12 +1,11 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && apt-get install -y \
     python3.10 \
     python3-pip \
     python-is-python3 \
     git
 
-RUN pip3 install --upgrade pip
 RUN pip3 install pyyaml
 
 COPY feed.py /usr/bin/feed.py
